@@ -1,0 +1,28 @@
+renv::init()
+install.packages("renv")
+renv::init()
+renv::init(force = TRUE)
+savehistory("~/work/work01/dot.R_history_20230730-01.txt")
+Y
+savehistory("~/work/work01/dot.R_history_20230730-02.txt")
+renv::snapshot()
+tinytex::install_tinytex(dir = "/home/rstudio/.TinyTeX", force = TRUE)
+install.packages("tinytex", lib="/usr/local/lib/R/site-library")
+install.packages("tinytex", lib="/usr/local/lib/R/site-library")
+tinytex::install_tinytex(dir = "/home/rstudio/.TinyTeX", force = TRUE)
+renv::snapshot()
+savehistory("~/work/work01/dot.R_history_20230730-03.txt")
+library(tinytex)
+tlmgr_search('/times.sty')   # search for times.sty
+tlmgr_search('/jarticle.sty')   # search for times.sty
+tlmgr_search('/jsarticle.sty')   # search for times.sty
+tlmgr_search('/jbook.sty')   # search for times.sty
+tlmgr_search('/jsbook.sty')   # search for times.sty
+savehistory("~/work/work01/dot.R_history_20230730-04.txt")
+tlmgr_install('psnfss')      # install the psnfss package
+tlmgr_update()               # update everything
+tinytex::tlmgr_install("haranoaji")
+renv::snapshot()
+tinytex::tlmgr_install(c("bxjscls", "luatexja", "haranoaji"))
+renv::snapshot()
+savehistory("~/work/work01/dot.R_history_20230730-05.txt")

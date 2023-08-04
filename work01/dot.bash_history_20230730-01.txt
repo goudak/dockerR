@@ -1,0 +1,7 @@
+ls
+pwd
+cd work/
+ls
+cd work01/
+ls
+touch touch-test-fromR.txt

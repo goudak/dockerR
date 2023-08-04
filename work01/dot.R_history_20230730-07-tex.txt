@@ -1,0 +1,6 @@
+install.packages("renv")
+tinytex::lualatex('test.tex')
+tinytex::tlmgr_install(c("bxjscls", "luatexja", "zxjatype", "zxjafont", "haranoaji", "jlreq"))
+savehistory("~/work/work01/dot.R_history_20230730-06-tex.txt")
+tinytex::tlmgr_install(c("pgf", "preview", "xcolor"))
+savehistory("~/work/work01/dot.R_history_20230730-07-tex.txt")

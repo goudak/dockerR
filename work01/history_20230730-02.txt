@@ -1,0 +1,55 @@
+    1  ls
+    2  pwd
+    3  cd work/
+    4  ls
+    5  cd work01/
+    6  ls
+    7  touch touch-test-fromR.txt
+    8  pwd
+    9  ls
+   10  cd
+   11  ls
+   12  pip install dvc dvc-gdrive
+   13  dvc remote add --default myremote gdrive://1bm2pSrbsJuMqGBcjMPcqcmpPk3eClr7e
+   14  ls
+   15  which julia
+   16  which python
+   17  which ruby
+   18  which R
+   19  pwd
+   20  date
+   21  echo "2023-07-30sat"
+   22  history 
+   23  ls -a
+   24  less .bash_history 
+   25  more .bash_history 
+   26  cp .bash_history work/work01/dot.bash_history_20230730-01.txt
+   27  history > ~/work/work01/history_20230730-01.txt
+   28  pwd
+   29  ls
+   30  cd ~/work/work01/julia/jl001/
+   31  julia
+   32  pwd
+   33  ls
+   34  ls -a
+   35  cd ..
+   36  ls
+   37  ls la
+   38  cd 
+   39  ls
+   40  ls -la
+   41  latex
+   42  tlatex
+   43  which tlmgr
+   44  rehash
+   45  hash
+   46  which tlmgr
+   47  ls /usr/local
+   48  ls /usr/local/bin
+   49  ls
+   50  pdftex --versiion
+   51  pdftex --version
+   52  echo pdftex --version 3.141592653-1.40.25 Tex Live 2023
+   53  echo kpathsea version 6.3.5
+   54  history > ~/work/work01/history_20230730-01.txt
+   55  history > ~/work/work01/history_20230730-02.txt

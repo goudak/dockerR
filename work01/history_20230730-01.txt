@@ -1,0 +1,27 @@
+    1  ls
+    2  pwd
+    3  cd work/
+    4  ls
+    5  cd work01/
+    6  ls
+    7  touch touch-test-fromR.txt
+    8  pwd
+    9  ls
+   10  cd
+   11  ls
+   12  pip install dvc dvc-gdrive
+   13  dvc remote add --default myremote gdrive://1bm2pSrbsJuMqGBcjMPcqcmpPk3eClr7e
+   14  ls
+   15  which julia
+   16  which python
+   17  which ruby
+   18  which R
+   19  pwd
+   20  date
+   21  echo "2023-07-30sat"
+   22  history 
+   23  ls -a
+   24  less .bash_history 
+   25  more .bash_history 
+   26  cp .bash_history work/work01/dot.bash_history_20230730-01.txt
+   27  history > ~/work/work01/history_20230730-01.txt

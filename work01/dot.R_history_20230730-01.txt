@@ -1,0 +1,5 @@
+renv::init()
+install.packages("renv")
+renv::init()
+renv::init(force = TRUE)
+savehistory("~/work/work01/dot.R_history_20230730-01.txt")
