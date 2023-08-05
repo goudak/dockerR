@@ -1,0 +1,20 @@
+install.packages("renv")
+renv::init(force = TRUE)
+renv::snapshot()
+install.packages("tinytex", lib="/usr/local/lib/R/site-library")
+tinytex::install_tinytex(dir = "/home/rstudio/.TinyTeX", force = TRUE)
+renv::snapshot()
+library(tinytex)
+tlmgr_search('/times.sty')   # search for times.sty
+tlmgr_search('/jarticle.sty')   # search for times.sty
+tlmgr_search('/jsarticle.sty')   # search for times.sty
+tlmgr_search('/jbook.sty')   # search for times.sty
+tlmgr_search('/jsbook.sty')   # search for times.sty
+tlmgr_update()               # update everything
+tlmgr_install('psnfss')      # install the psnfss package
+tinytex::tlmgr_install("haranoaji")
+renv::snapshot()
+tinytex::tlmgr_install(c("bxjscls", "luatexja", "haranoaji"))
+renv::snapshot()
+savehistory("~/work/work01/dot.R_history_gapp03_20230801-01.txt")
+savehistory("~/work/work01/dot.R_history_gapp03_20230801-02.txt")

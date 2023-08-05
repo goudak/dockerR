@@ -1,0 +1,8 @@
+# REF: https://zenn.dev/nicetak/articles/vscode-docker-2023
+
+開発コンテナで再度開く
+
+localhost:8787/
+
+フォルダーをローカルで再度開く
+###

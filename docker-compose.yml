@@ -1,9 +1,21 @@
+version: '3'
+
 services:
     rstudio:
+        image: ymattu/mecab-d:latest
+        container_name: godakr
+        hostname: rstu2023
+        # privileged: true
+        tty: true
+        shm_size: '1gb'
+        ports:
+            - "8787:8787"
+        expose:
+            - '8787'
         build:
             context: .
         environment:
-            - TZ=Europe/Madrid
+            - TZ=TZ=Asia/Tokyo
             - DISABLE_AUTH=true
             - PYTHONUSERBASE=/home/rstudio/.pip
         volumes:
