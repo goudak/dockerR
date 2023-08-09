@@ -19,7 +19,7 @@ services:
             - DISABLE_AUTH=true
             - PYTHONUSERBASE=/home/rstudio/.pip
         volumes:
-            - .:/home/rstudio/work
+            - ./work01:/home/rstudio/work
             - renv:/home/rstudio/.cache/R/renv
             - pip:/home/rstudio/.pip
             - julia:/home/rstudio/.julia

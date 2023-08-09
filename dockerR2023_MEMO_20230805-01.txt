@@ -1,2 +1,35 @@
 #REF: https://zenn.dev/nicetak/articles/vscode-docker-2023
 
+# chdir
+getwd()
+setwd("/home/rstudio/work")
+
+# install renv
+install.packages("renv")
+
+# renv
+ install.packages("renv")
+
+# pip
+pip install dvc dvc-gdrive
+
+# dvc
+#dvc init && dvc remote add -d myremote gdrive://15ftaxxm-xLqKOI6LN13G85rnIMMN5JG6
+#FAIL
+
+
+###
+# new project
+install.packages("reticulate")
+
+Tools -> Global Options -> Python 
+#インタプリタの設定
+### pip at Terminal
+pip install numpy matplotlib
+
+### Source Script 
+reticulate::source_python('~/work/py01/UntitledPY01.py')
+
+
+
+###

@@ -1,0 +1,13 @@
+    1  pwd
+    2  ls
+    3  pip
+    4  pip install dvc dvc-gdrive
+    5  dvc init && dvc remote add -d myremote gdrive://15taxxm-xLqKOI6LN13G85rnIMMN5JG6
+    6  pip install numpy
+    7  pip install numpy matplotlib
+    8  pip list
+    9  pip freeze
+   10  history
+   11  pwd
+   12  ls
+   13  history >> history_rstudio_20230805-01.txt
