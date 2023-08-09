@@ -1,0 +1,10 @@
+install.packages("reticulate")
+library(reticulate)
+repl_python()
+py_install("pandas")
+Y
+repl_python()
+repl_python()
+repl_python()
+repl_python()
+savehistory("~/work/py02/repl_python_history_20230809-01.txt")
